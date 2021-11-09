@@ -15,7 +15,7 @@ jobs:
   steps:
   - task: SonarCloudPrepare@1
     inputs:
-      SonarCloud: 'SonarCloud' # Name of the SonarCloud service connection you created
+      SonarCloud: 'sc service' # Name of the SonarCloud service connection you created
       organization: 'sonarsource-cfamily-examples'
       scannerMode: 'CLI'
       configMode: 'file'
